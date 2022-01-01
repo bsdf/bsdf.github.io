@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.kodi.xeyes.org" name="Xeyes Repository" version="2.0.1" provider-name="bsdf">
+  <extension point="xbmc.addon.repository" name="Xeyes Repository">
+	<info compressed="false">https://kodi.xeyes.org/addons.xml</info>
+	<checksum>https://kodi.xeyes.org/addons.xml.md5</checksum>
+	<datadir zip="true">https://kodi.xeyes.org/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary>Xeyes Repository</summary>
+	<description>Download and install addons hosted by Xeyes</description>
+	<disclaimer></disclaimer>
+	<platform>all</platform>
+  </extension>
+</addon>

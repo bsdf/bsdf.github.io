@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="screensaver.plugin.webkollage" name="WebKollage" version="0.0.12" provider-name="bsdf">
+  <requires>
+    <import addon="script.module.requests" version="2.22.0" />
+    <import addon="script.module.beautifulsoup4" version="4.6.2" />
+  </requires>
+  <extension point="xbmc.ui.screensaver" library="screensaver.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Screensaver that displays random images from the web</summary>
+    <description lang="en">The Slideshow screensaver will show you a slide show of images using various transition effects. It can be configured to show images from image plugins installed on XBMC</description>
+    <platform>all</platform>
+    <license>GPL-3.0-or-later</license>
+    <source>https://github.com/bsdf/screensaver.plugin.webkollage</source>
+  </extension>
+</addon></addons>
