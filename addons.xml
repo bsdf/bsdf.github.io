@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="screensaver.plugin.webkollage" name="WebKollage" version="0.0.12" provider-name="bsdf">
+<addons><addon id="screensaver.plugin.webkollage" name="WebKollage" version="0.0.13" provider-name="bsdf">
   <requires>
     <import addon="script.module.requests" version="2.22.0" />
     <import addon="script.module.beautifulsoup4" version="4.6.2" />
